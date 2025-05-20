@@ -47,20 +47,11 @@ const OceanFreight = () => {
 
                     <div className="w-16 h-1 bg-orange-500 mb-6"></div> {/* Divider */}
 
-                    <p className="text-gray-700 text-base leading-relaxed mb-4">
-                        In the business of shipping, <strong className="text-gray-900 font-semibold">AFFINITY Logistics</strong> has the background and expertise to deliver the most extensive, realistic, cost-effective schedules.
-                    </p>
-
-                    <p className="text-gray-700 text-base leading-relaxed mb-4">
-                        As our aim is to be one of the region’s largest global logistics providers, we have the shipping volumes to give you competitive rates and service, regardless of the origin, destination, or time of year.
-                    </p>
-
-                    <p className="text-gray-700 text-base leading-relaxed mb-4">
-                        When your goods reach port—whether they be FCL, LCL, project cargo, heavy lift, or break-bulk—AFFINITY Logistics’ experience and network ensure timely delivery to the final destination.
-                    </p>
-
                     <p className="text-gray-700 text-base leading-relaxed mb-6">
-                        Our comprehensive ocean freight services are complemented by a full range of transportation options and integrated logistics programs, providing our clients with true one-stop shopping. AFFINITY Logistics can operate either as a traditional freight forwarder or an NVOCC to best suit your needs: offering flexible, cost-effective, time-definite transit times, multiple carrier options, and other value-added services.
+                        We provide very competitive rates on full container load FCL and LCL shipments from all major transit points around the globe. Even if your shipment is of somewhat smaller size, we also offer less than container load departures between all major transit points in the world.
+
+                        With a comprehensive range of FCL & LCL services, we offer consolidation/Deconsolidation and back to back services as and when required. We have built an extensive network of agents that makes us able to provide secure, efficient and timely delivery of Cargo. The vast number of Import/Export range covered by us and the large volumes handled by us enable us to consolidate direct containers from specific locations which in turn enables us to control transit time and cost. We provide efficient Consolidation service to our Customers. The alacrity with which we work shows our ability to handle fragile and sensitive shipments. We have a committed network of integrated air and ground services that enables us to handle from pick up to prompt delivery. The services we offer in Consolidation include
+                        We have a special pricing for FCL Booking customers. It is available at highly competitive pricing that is normally associated with implementing this type of facility – covering small and medium scale shippers.
                     </p>
 
                     {/* Orange Callout */}

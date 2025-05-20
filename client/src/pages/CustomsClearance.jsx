@@ -45,16 +45,8 @@ const CustomsClearance = () => {
                     </h2>
 
                     <div className="w-16 h-1 bg-orange-500 mb-6"></div>
-
-                    <p className="text-gray-700 text-base leading-relaxed mb-4">
-                        Logitrust operates from a fully equipped freight facility with online custom EDI filing,
-                        enabling us to provide efficient import and export services via air, sea, and road.
-                    </p>
-
                     <p className="text-gray-700 text-base leading-relaxed mb-6">
-                        Our experienced teams manage everything from liaison with regulatory authorities to
-                        full documentation and fast-track clearance across all categories including E.O.U.,
-                        EPZ, STP, and EPCG schemes.
+                      "Our customs clearance services are designed to simplify international trade and eliminate delays at borders. With in-depth knowledge of global import and export regulations, our team ensures your shipments comply with all legal requirements. From documentation preparation to duties, tariffs, and inspections, we handle every detail with precision and efficiency. Whether by air, sea, or land, we work closely with customs authorities to ensure smooth, fast, and hassle-free clearance — so your cargo moves without interruption
                     </p>
 
                     {/* Callout Box */}

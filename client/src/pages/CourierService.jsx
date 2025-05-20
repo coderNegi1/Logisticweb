@@ -44,14 +44,7 @@ const CourierService = () => {
                 <div className="w-16 h-1 bg-orange-500 mb-6"></div> {/* Simple horizontal divider */}
 
                 <p className="text-gray-700 text-base leading-relaxed mb-6">
-                    We take great pleasure in introducing{' '}
-                    <strong className="font-bold text-gray-900">WORLDWIDE LOGISTIC PLANNER</strong> a
-                    leading International Courier company specializing in{' '}
-                    <strong className="font-bold text-gray-900">Door to Door delivery</strong> of{' '}
-                    <strong className="font-bold text-gray-900">Urgent time sensitive documents, important samples and packages</strong> to
-                    more than 210 countries worldwide. We operate round the clock, round the
-                    year; we operate directly into all major hubs worldwide i.e.{' '}
-                    <strong className="font-bold text-gray-900">London, Frankfurt, New York, and Paris, Singapore.</strong>
+                   Our courier services are designed to deliver speed, reliability, and peace of mind. Whether it’s urgent documents, valuable parcels, or time-sensitive deliveries, we ensure your shipments reach their destination safely and on time. With a strong local and international network, real-time tracking, and dedicated customer support, we offer seamless door-to-door solutions tailored to your needs. From same-day delivery to scheduled pickups, we make courier logistics simple, secure, and efficient — every step of the way.
                 </p>
 
                 {/* Orange Callout */}

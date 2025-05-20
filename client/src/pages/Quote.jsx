@@ -1,4 +1,5 @@
 import React from 'react';
+import InquiryForm from '../components/ContactForm';
 
 const Quote = () => {
   return (
@@ -10,8 +11,7 @@ const Quote = () => {
             <h6 className=" mb-3 text-blue-400 uppercase font-bold">Get A Quote</h6>
             <h1 className="text-5xl md:text-4xl font-bold mb-6">Request A Free Quote!</h1>
             <p className="text-gray-600 mb-6">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam
-              et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet.
+              Get fast, accurate, and competitive pricing for your shipping needs. Just share a few details about your cargo, and our team will get back to you with a personalized quote — no obligations, no hidden fees.
             </p>
             <div className="flex items-center">
               <div className="bg-primary text-white p-5">
@@ -26,47 +26,7 @@ const Quote = () => {
 
           {/* Right Column (Form) */}
           <div className="lg:w-7/12 bg-gray-100 p-8  ">
-            <form>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <input
-                  type="text"
-                  placeholder="Your Name"
-                  className="w-full p-3 border border-gray-300  focus:outline-none focus:ring focus:border-primary"
-                />
-                <input
-                  type="email"
-                  placeholder="Your Email"
-                  className="w-full p-3 border border-gray-300  focus:outline-none focus:ring focus:border-primary"
-                />
-                <input
-                  type="text"
-                  placeholder="Your Mobile"
-                  className="w-full p-3 border border-gray-300  focus:outline-none focus:ring focus:border-primary"
-                />
-                <select
-                  className="w-full p-3 border border-gray-300  focus:outline-none focus:ring focus:border-primary"
-                  defaultValue=""
-                >
-                  <option value="" disabled>
-                    Select A Freight
-                  </option>
-                  <option value="1">Freight 1</option>
-                  <option value="2">Freight 2</option>
-                  <option value="3">Freight 3</option>
-                </select>
-                <textarea
-                  rows="4"
-                  placeholder="Special Note"
-                  className="col-span-1 sm:col-span-2 w-full p-3 border border-gray-300  focus:outline-none focus:ring focus:border-primary"
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                className="mt-6 w-full bg-primary text-dark py-4 px-6  --color-primary-400 hover:--color-primary-700 transition"
-              >
-                Submit
-              </button>
-            </form>
+           <InquiryForm />
           </div>
         </div>
       </div>

@@ -7,34 +7,36 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 // Replace these with your actual images
-import Bg1 from '../assets/bg-1.jpg';
-import Bg2 from '../assets/bg-1.jpg';
-import Bg3 from '../assets/bg-1.jpg';
+import Air from '../assets/Air2.avif';
+import Sea from '../assets/Sea1.avif';
+import Bg3 from '../assets/cargo3.jpg';
 
 const slides = [
   {
     id: 1,
-    image: Bg1,
+    image: Air,
     heading: 'Transport & Logistics Solution',
     title: '#1 Place For Your Logistics Solution',
-    description:
-      'Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.',
+    description: `Trusted by businesses worldwide to move freight with care.
+Expert freight management across air, sea, and land`
+
   },
   {
     id: 2,
-    image: Bg2,
+    image: Sea,
     heading: 'Reliable Freight Services',
     title: 'Delivering Trust, Building Logistics',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan fermentum turpis.',
+    description: `Real-time tracking. Seamless communication. Smarter freight.
+Digital tools. Human expertise. Superior results.`,
+
   },
   {
     id: 3,
     image: Bg3,
     heading: 'Global Coverage',
     title: 'Moving Your Business Everywhere',
-    description:
-      'We offer global logistics solutions with timely delivery and full support across the globe.',
+    description: `Connecting continents through seamless cargo solutions.
+Shipping made simple — anywhere in the world.`,
   },
 ];
 
@@ -44,14 +46,14 @@ const Hero = () => {
       modules={[Navigation, Pagination, Autoplay]}
       navigation
       pagination={{ clickable: true }}
-      autoplay={{ delay: 3000 }}
+      autoplay={{ delay: 5000 }}
       loop
       className="w-full h-[85vh] mb-10"
     >
       {slides.map((slide) => (
         <SwiperSlide key={slide.id}>
           <div
-            className="relative w-full h-[85vh] bg-cover bg-center"
+            className="relative w-full h-full bg-cover bg-top"
             style={{ backgroundImage: `url(${slide.image})` }}
           >
             <div className="absolute inset-0 bg-black/60 flex items-center lg:p-30 md:p-10 ">
@@ -69,8 +71,11 @@ const Hero = () => {
                       )
                     )}
                   </h1>
-                  <p className="text-white text-lg mb-6">{slide.description}</p>
-                  <div className="flex flex-wrap gap-4">
+                  <p className="text-white text-lg mb-6 whitespace-pre-line">
+                    {slide.description}
+                  </p>
+
+                  {/* <div className="flex flex-wrap gap-4">
                     <a
                       href="#"
                       className="bg-primary text-white py-3 px-8  hover:bg-primary-dark transition"
@@ -83,7 +88,7 @@ const Hero = () => {
                     >
                       Free Quote
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

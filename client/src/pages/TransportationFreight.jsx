@@ -47,12 +47,10 @@ const TransportationFreight = () => {
 
                     <div className="w-16 h-1 bg-orange-500 mb-6"></div>
 
-                    <p className="text-gray-700 text-base leading-relaxed mb-6">
-                        Our transportation freight services are designed to meet the evolving needs of logistics across India and globally. Whether you need full truckload (FTL), less-than-truckload (LTL), or specialized equipment, our fleet and partners ensure fast, safe, and cost-effective movement of your cargo.
-                    </p>
 
                     <p className="text-gray-700 text-base leading-relaxed mb-6">
-                        We provide a single point of contact for seamless end-to-end movement, offering flexibility in routing, real-time tracking, and adherence to tight schedules — all while maintaining safety and compliance standards.
+                        We strive to extend standard services across vast distances and through rough terrain all across India. Our motivated staff and our expertise in the industry always keep us on schedule by rail and road. We provide relocation and movement of both of bulk and containerized goods. We offer a variety of transport solutions, be it group age or other transport services such as part and full load shipments by road, railways or a combination of two.
+                        We offer Quality Container Trucking services as per the comfortability of our customers. We acquaint ourselves as one of the most trusted Container trucking service providers in Singapore. Our pricing is among the best in the industry. We offer safe, dry, and secure storage and transportation of containers from reaching to a wide classification of customers. We offer a full line of dry containers, high cube container, open top, flat racks, tank, and refrigerated containers. Containers of all types - 20', 22', 40', closed and open top are handled via our trucking service. We provide on time Containerized door to door services. We have our own fleet of containers and containerized vehicles. Our containers pass through the most stringent test before loading - like humidity check, leakage check, and floor check only after these tests a container in loaded and set for the road
                     </p>
 
                     {/* Callout Box */}

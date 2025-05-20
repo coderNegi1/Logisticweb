@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Bg3 from '../assets/bg-1.jpg';
+import InquiryForm from '../components/ContactForm';
 
 
 const ContactPage = () => {
@@ -33,63 +34,7 @@ const ContactPage = () => {
           <div>
             <h6 className="text-blue-600 uppercase mb-2">Get In Touch</h6>
             <h1 className="text-3xl font-bold mb-4">Contact For Any Query</h1>
-           
-          
-
-            <form className="bg-gray-100 p-6  space-y-4">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="relative">
-                  <input
-                    type="text"
-                    id="name"
-                    placeholder="Your Name"
-                    className="form-input w-full px-4 py-3 border rounded"
-                  />
-                  <label htmlFor="name" className="text-sm text-gray-600 block mt-1">
-                    Your Name
-                  </label>
-                </div>
-                <div className="relative">
-                  <input
-                    type="email"
-                    id="email"
-                    placeholder="Your Email"
-                    className="form-input w-full px-4 py-3 border rounded"
-                  />
-                  <label htmlFor="email" className="text-sm text-gray-600 block mt-1">
-                    Your Email
-                  </label>
-                </div>
-              </div>
-              <div>
-                <input
-                  type="text"
-                  id="subject"
-                  placeholder="Subject"
-                  className="form-input w-full px-4 py-3 border rounded"
-                />
-                <label htmlFor="subject" className="text-sm text-gray-600 block mt-1">
-                  Subject
-                </label>
-              </div>
-              <div>
-                <textarea
-                  id="message"
-                  rows="4"
-                  placeholder="Leave a message here"
-                  className="form-textarea w-full px-4 py-3 border rounded"
-                ></textarea>
-                <label htmlFor="message" className="text-sm text-gray-600 block mt-1">
-                  Message
-                </label>
-              </div>
-              <button
-                type="submit"
-                className="--color-primary-600 hover:--color-primary-700 text-white py-3 px-6 rounded w-full"
-              >
-                Send Message
-              </button>
-            </form>
+          <InquiryForm />
           </div>
 
           {/* Google Map */}

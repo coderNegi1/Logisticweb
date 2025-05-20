@@ -46,11 +46,8 @@ const AirFreight = () => {
                     <div className="w-16 h-1 bg-orange-500 mb-6"></div> {/* Divider */}
 
                     <p className="text-gray-700 text-base leading-relaxed mb-6">
-                        We are fortunate to have consistently large and dependable volumes of airfreight, which are evenly distributed among the major regions of the world.
-                    </p>
-
-                    <p className="text-gray-700 text-base leading-relaxed mb-6">
-                        We offer a menu of airfreight products and services from stand-alone airport-to-airport through door-to-door or as a key component of an integrated end-to-end logistics program. This comprehensive range of airfreight products has been engineered to meet your specifications and produce the results you need.
+                        We  provide an air cargo cost-effective alternative for the commercial air shipping community for domestic as well as international consignments. We maintain a network of agents worldwide for an efficient pickup and delivery operation, 365 days a year.
+                        Our service depends on customer needs which expands from Same Day Service, Next Day, Second Day, Economy and International: hazardous material certified. Our all-points international air hubs are connected with other regional hubs located in strategic cities around the world. Our professionally trained representatives can provide rates, shipment forwarding and logistical support, as well as, delivery information regarding the ultimate destination city. Our centralized booking service offers direct routings, plus alternative and bypass flights.
                     </p>
 
                     {/* Orange Callout */}

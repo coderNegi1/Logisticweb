@@ -47,12 +47,10 @@ const WarehouseSolutions = () => {
 
                     <div className="w-16 h-1 bg-orange-500 mb-6"></div>
 
-                    <p className="text-gray-700 text-base leading-relaxed mb-6">
-                        Integrating all parts of supply chain management, we take a step forward in enhancing our logistics services by offering custom bonded warehouses in Delhi and NCR, along with warehouse facilities in all metro cities across India.
-                    </p>
+
 
                     <p className="text-gray-700 text-base leading-relaxed mb-6">
-                        Our distribution and logistics network ensures peace of mind for our clients by covering every critical aspect — from storage to last-mile delivery, backed by real-time inventory visibility and robust manpower support.
+                        Our warehousing solutions provide secure, organized, and scalable storage for your goods — whether short-term or long-term. Strategically located and fully equipped, our facilities ensure safe handling, real-time inventory management, and smooth distribution. From cross-docking and packaging to order fulfillment and last-mile coordination, we offer end-to-end support tailored to your supply chain needs. Backed by advanced systems and a dedicated logistics team, we help you optimize space, reduce costs, and deliver with confidence.
                     </p>
 
                     {/* Orange Callout */}

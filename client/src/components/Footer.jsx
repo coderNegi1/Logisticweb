@@ -49,12 +49,11 @@ Raj Nagar-2, Palam Colony, New Delhi-110077</p>
               <li><Link to="/about" className="hover:underline">About Us</Link></li>
               <li><Link to="/contact" className="hover:underline">Contact Us</Link></li>
               <li><Link to="/services" className="hover:underline">Our Services</Link></li>
-              <li><Link to="/terms" className="hover:underline">Terms & Conditions</Link></li>
-              <li><Link to="/support" className="hover:underline">Support</Link></li>
+             
             </ul>
           </div>
 
-          
+
         </div>
       </div>
 
