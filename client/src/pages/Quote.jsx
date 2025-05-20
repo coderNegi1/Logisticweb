@@ -19,7 +19,7 @@ const Quote = () => {
               </div>
               <div className="ml-4">
                 <h6 className="text-gray-700 text-lg">Call for any query!</h6>
-                <h3 className="text-primary font-bold text-2xl">+012 345 6789</h3>
+                <h3 className="text-primary font-bold text-2xl">+91 &nbsp;9015210007</h3>
               </div>
             </div>
           </div>

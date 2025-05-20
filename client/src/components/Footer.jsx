@@ -54,21 +54,7 @@ Raj Nagar-2, Palam Colony, New Delhi-110077</p>
             </ul>
           </div>
 
-          {/* Newsletter */}
-          <div>
-            <h4 className="text-white text-lg font-semibold mb-4">Newsletter</h4>
-            <p className="mb-4">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-            {/* <div className="relative max-w-xs">
-              <input
-                type="email"
-                placeholder="Your email"
-                className="w-full py-3 px-4 pr-24 rounded text-gray-900 focus:outline-none"
-              />
-              <button className="absolute top-1 right-1 --color-primary-600 text-white px-4 py-2 rounded hover:--color-primary-700">
-                SignUp
-              </button>
-            </div> */}
-          </div>
+          
         </div>
       </div>
 

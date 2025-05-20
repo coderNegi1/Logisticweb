@@ -1,9 +1,9 @@
 import React from 'react';
 
 const stats = [
-  { number: '1234', label: 'Happy Clients' },
-  { number: '1234', label: 'Complete Shipments' },
-  { number: '1234', label: 'Customer Reviews' },
+  { number: '200+', label: 'Happy Clients' },
+  { number: '1000+', label: 'Complete Shipments' },
+  { number: '4.6', label: 'Customer Reviews' },
 ];
 
 const Facts = () => {
@@ -20,11 +20,11 @@ const Facts = () => {
               eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore
               erat amet
             </p>
-            <div className="flex items-center bg-dark shadow p-4 rounded">
+            <div className="flex items-center bg-dark  p-4 ">
               <i className="fas fa-headphones fa-2x bg-primary text-dark p-6 "></i>
               <div className="ml-4">
                 <h6 className="text-gray-700 text-lg">Call for any query!</h6>
-                <h3 className="text-primary font-semibold text-2xl">+012 345 6789</h3>
+                <h3 className="text-primary font-semibold text-2xl">+91 &nbsp;9015210007</h3>
               </div>
             </div>
           </div>

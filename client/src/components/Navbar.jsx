@@ -9,26 +9,13 @@ const Navbar = () => {
 
     <nav className="sticky top-0 z-50 bg-white shadow">
       <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4 ">
-        <NavLink to="/" >
-          akahand vasanlogistics
-
-        </NavLink>
+        <div></div>
 
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="lg:hidden text-gray-700 focus:outline-none"
         >
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d={
-                menuOpen
-                  ? 'M6 18L18 6M6 6l12 12'
-                  : 'M4 6h16M4 12h16M4 18h16'
-              }
-            />
-          </svg>
+         
         </button>
 
         <div
@@ -38,7 +25,7 @@ const Navbar = () => {
           <NavLink
             to="/"
             className={({ isActive }) =>
-              `block px-6 py-6  transition ${isActive
+              `block px-6 py-1  transition ${isActive
                 ? 'bg-primary text-white'
                 : 'text-gray-700 hover:bg-gray-100 hover:text-primary'
               }`
@@ -49,7 +36,7 @@ const Navbar = () => {
           <NavLink
             to="/about"
             className={({ isActive }) =>
-              `block px-6 py-6  transition ${isActive
+              `block px-6 py-1  transition ${isActive
                 ? 'bg-primary text-white'
                 : 'text-gray-700 hover:bg-gray-100 hover:text-primary'
               }`
@@ -60,7 +47,7 @@ const Navbar = () => {
           <NavLink
             to="/services"
             className={({ isActive }) =>
-              `block px-6 py-6  transition ${isActive
+              `block px-6 py-1  transition ${isActive
                 ? 'bg-primary text-white'
                 : 'text-gray-700 hover:bg-gray-100 hover:text-primary'
               }`
@@ -71,7 +58,7 @@ const Navbar = () => {
           <NavLink
             to="/contact"
             className={({ isActive }) =>
-              `block px-6 py-6  transition ${isActive
+              `block px-6   transition ${isActive
                 ? 'bg-primary text-white'
                 : 'text-gray-700 hover:bg-gray-100 hover:text-primary'
               }`
@@ -83,7 +70,7 @@ const Navbar = () => {
 
         <div className="hidden lg:block text-gray-800 text-lg font-semibold">
           <button className="bg-primary hover:bg-primary-dull text-white font-bold py-2 px-4 ">
-            Any Query
+            Quick Inquiry
           </button>
         </div>
       </div>

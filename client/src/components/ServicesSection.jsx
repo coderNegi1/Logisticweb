@@ -15,11 +15,12 @@ import service7 from '../assets/service-7.avif';
 const services = [
   { id: 1, title: 'Air Freight', img: service1, link: '/services/air-freight' },
   { id: 2, title: 'Ocean Freight', img: service2, link: '/services/ocean-freight' },
-  { id: 3, title: 'Transportation Freight', img: service3, link: '/services/transportation-freight' },
-  { id: 4, title: 'Rail Freight', img: service4, link: '/services/rail-freight' },
+  { id: 7, title: 'Courier Service', img: service7, link: '/services/courier-service' },
+
+  { id: 3, title: 'Road And Rail Transport', img: service3, link: '/services/transportation-freight' },
+  { id: 4, title: 'Cargo Insurance', img: service4, link: '/services/rail-freight' },
   { id: 5, title: 'Customs Clearance', img: service5, link: '/services/customs-clearance' },
   { id: 6, title: 'Warehouse Solutions', img: service6, link: '/services/warehouse-solutions' },
-  { id: 7, title: 'Courier Service', img: service7, link: '/services/courier-service' },
 ];
 
 
@@ -49,7 +50,7 @@ const ServicesSection = () => {
                 />
               </div>
               <div className='p-4'>
-                <h4 className="text-xl font-semibold mb-2">{service.title}</h4>
+                <h4 className="text-xl font-semibold mb-2 uppercase">{service.title}</h4>
                 <p className="text-gray-600 mb-4">
                   Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
                 </p>
