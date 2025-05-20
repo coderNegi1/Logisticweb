@@ -9,6 +9,7 @@ import service4 from '../assets/werehouse.avif';
 import service5 from '../assets/courier.avif';
 import service6 from '../assets/Air.avif';
 import service7 from '../assets/customsClearance.avif';
+//change file name
 
 
 // Services data with individual descriptions
