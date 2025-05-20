@@ -6,13 +6,15 @@ import ServicesSection from '../components/ServicesSection'
 import Feature from './Feature';
 import Quote from './Quote';
 import TeamSection from './TeamSection';
+import MarqueeText from '../components/MarqueeText';
 const Home = () => {
   return (
     <div>
+      <MarqueeText />
       <Hero />
       <AboutSection />
       <Facts />
-     <ServicesSection />
+      <ServicesSection />
       <Feature />
       <Quote />
       <TeamSection />

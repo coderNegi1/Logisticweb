@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Import images from the assets folder
 import service1 from '../assets/service-1.avif';
@@ -7,16 +8,20 @@ import service3 from '../assets/service-3.avif';
 import service4 from '../assets/service-4.avif';
 import service5 from '../assets/service-5.avif';
 import service6 from '../assets/service-6.avif';
+import service7 from '../assets/service-7.avif';
+
 
 // Services data
 const services = [
-  { id: 1, title: 'Air Freight', img: service1 },
-  { id: 2, title: 'Ocean Freight', img: service2 },
-  { id: 3, title: 'Road Freight', img: service3 },
-  { id: 4, title: 'Train Freight', img: service4 },
-  { id: 5, title: 'Customs Clearance', img: service5 },
-  { id: 6, title: 'Warehouse Solutions', img: service6 },
+  { id: 1, title: 'Air Freight', img: service1, link: '/services/air-freight' },
+  { id: 2, title: 'Ocean Freight', img: service2, link: '/services/ocean-freight' },
+  { id: 3, title: 'Transportation Freight', img: service3, link: '/services/transportation-freight' },
+  { id: 4, title: 'Rail Freight', img: service4, link: '/services/rail-freight' },
+  { id: 5, title: 'Customs Clearance', img: service5, link: '/services/customs-clearance' },
+  { id: 6, title: 'Warehouse Solutions', img: service6, link: '/services/warehouse-solutions' },
+  { id: 7, title: 'Courier Service', img: service7, link: '/services/courier-service' },
 ];
+
 
 // Services Section Component
 const ServicesSection = () => {
@@ -48,13 +53,14 @@ const ServicesSection = () => {
                 <p className="text-gray-600 mb-4">
                   Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
                 </p>
-                <a
-                  href="#"
+                <Link
+                  to={service.link}
                   className="inline-flex items-center gap-2 text-primary hover:underline font-medium"
                 >
                   <i className="fas fa-arrow-right"></i>
                   <span>Read More</span>
-                </a>
+                </Link>
+
               </div>
             </div>
           ))}
