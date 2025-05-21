@@ -33,7 +33,7 @@ const SubHeader = () => {
           } md:flex`}
         >
           <div className="flex items-center text-gray-600">
-            <img src={IndianFlag} alt="india" className="h-8 rounded w-10 mr-2" />
+            <img src={IndianFlag} alt="india" className="h-7 w-10 rounded  mr-2 object-cover " />
             <span className="text-gray-600 text-shadow-lg text-lg">India</span>
           </div>
 
