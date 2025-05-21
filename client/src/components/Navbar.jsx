@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Menu, X } from 'lucide-react'; // Add icons for the hamburger and close buttons
+import { Menu, X, Phone } from 'lucide-react';
+
+
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -64,6 +66,7 @@ const Navbar = () => {
             to="/contact"  // Replace this with your desired path
             className="bg-primary hover:bg-primary-dull text-white font-bold py-[6px] px-4 inline-block"
           >
+            
             Quick Inquiry
           </NavLink>
         </div>

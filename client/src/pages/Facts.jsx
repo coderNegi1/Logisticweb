@@ -2,7 +2,7 @@ import React from 'react';
 
 const stats = [
   { number: '100+', label: 'Happy Clients' },
-  { number: '3500+', label: 'Complete Shipments' },
+  { number: '5000+', label: 'Complete Shipments' },
   { number: '9.6', label: 'Customer Reviews' },
 ];
 

@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Bg3 from '../assets/bg-1.jpg';
 import CustomsClearanceImg from '../assets/CustomsClearance.avif';
 
 
@@ -9,7 +8,7 @@ import CustomsClearanceImg from '../assets/CustomsClearance.avif';
 const CustomsClearance = () => {
     return (
         <>
-            <div className="bg-gray-800 py-20 mb-24" style={{ backgroundImage: `url(${Bg3})` }}>
+            <div className="bg-gray-800 py-20 mb-24" style={{ backgroundImage: `url(${CustomsClearanceImg})` }}>
                 <div className="container mx-auto px-4">
                     <h1 className="text-4xl md:text-5xl text-white font-bold mb-3">Custom Clearance </h1>
                     <nav className="text-white text-sm">

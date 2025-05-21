@@ -1,5 +1,6 @@
 import React from 'react';
 import InquiryForm from '../components/ContactForm';
+import { Phone } from 'lucide-react';
 
 const Quote = () => {
   return (
@@ -14,8 +15,9 @@ const Quote = () => {
               Get fast, accurate, and competitive pricing for your shipping needs. Just share a few details about your cargo, and our team will get back to you with a personalized quote — no obligations, no hidden fees.
             </p>
             <div className="flex items-center">
-              <div className="bg-primary text-white p-5">
-                <i className="fa fa-headphones fa-2x"></i>
+             
+              <div className="bg-green-400 rounded-full text-white p-3">
+                <Phone className="h-8 w-8  " />
               </div>
               <div className="ml-4">
                 <h6 className="text-gray-700 text-lg">Call for any query!</h6>

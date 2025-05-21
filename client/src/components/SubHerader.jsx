@@ -28,9 +28,8 @@ const SubHeader = () => {
 
         {/* Contact and Info Section */}
         <div
-          className={`flex-col md:flex-row items-center gap-4 mt-4 md:mt-0 ${
-            isOpen ? 'flex' : 'hidden'
-          } md:flex`}
+          className={`flex-col md:flex-row items-center gap-4 mt-4 md:mt-0 ${isOpen ? 'flex' : 'hidden'
+            } md:flex`}
         >
           <div className="flex items-center text-gray-600">
             <img src={IndianFlag} alt="india" className="h-7 w-10 rounded  mr-2 object-cover " />
@@ -44,7 +43,11 @@ const SubHeader = () => {
 
           <div className="flex items-center text-gray-600">
             <Mail className="h-4 w-4 mr-1" />
-            <span className="text-lg">kk@akhandvasini.in</span>
+            <a href="" className="text-lg">
+              kk@akhandvasini.in
+            </a>
+
+
           </div>
         </div>
         <div></div>
