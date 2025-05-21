@@ -64,9 +64,9 @@ const Navbar = () => {
         <div className="hidden lg:block text-gray-800 text-lg font-semibold">
           <NavLink
             to="/contact"  // Replace this with your desired path
-            className="bg-primary hover:bg-primary-dull text-white font-bold py-[6px] px-4 inline-block"
+            className="bg-primary hover:bg-primary-dull text-white font-bold py-[6px] px-2 flex items-center"
           >
-            
+            <Phone/>&nbsp;
             Quick Inquiry
           </NavLink>
         </div>
