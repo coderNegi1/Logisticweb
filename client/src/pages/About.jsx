@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import AboutSection from "../components/AboutSection";
 import Bg3 from '../assets/bg-1.jpg';
 // import WhyChooseUs from '../components/WhyChooseUs'
-import TeamSection from "./TeamSection";
+
 
 
 
@@ -29,8 +29,7 @@ const About = () => {
       </div>
 
       <AboutSection />
-      {/* <WhyChooseUs /> */}
-      <TeamSection />
+   
     </>
 
   );

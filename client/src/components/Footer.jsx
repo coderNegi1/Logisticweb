@@ -38,7 +38,6 @@ Raj Nagar-2, Palam Colony, New Delhi-110077</p>
               <li><Link to="/services/sea-freight" className="hover:underline">Sea Freight</Link></li>
               <li><Link to="/services/road-freight" className="hover:underline">Road Freight</Link></li>
               <li><Link to="/services/logistics" className="hover:underline">Logistic Solutions</Link></li>
-              <li><Link to="/services/industry" className="hover:underline">Industry Solutions</Link></li>
             </ul>
           </div>
 
