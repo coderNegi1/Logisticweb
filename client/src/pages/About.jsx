@@ -18,10 +18,6 @@ const About = () => {
                 <Link to="/" className="text-white hover:underline">Home</Link>
               </li>
               <li>/</li>
-              <li>
-                <span className="text-white">Pages</span>
-              </li>
-              <li>/</li>
               <li className="text-white font-semibold">About</li>
             </ol>
           </nav>

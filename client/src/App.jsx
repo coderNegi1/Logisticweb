@@ -10,7 +10,7 @@ import AirFreight from './pages/AirFreight';
 import OceanFreight from './pages/OceanFreight';
 import WarehouseSolutions from './pages/WarehouseSolutions';
 import TransportationFreight from './pages/TransportationFreight';
-import RailFreight from './pages/RailFreight';
+import CargoInsurance from './pages/CargoInsurance';
 import CustomsClearance from './pages/CustomsClearance';
 import SubHeader from './components/SubHerader';
 
@@ -30,7 +30,7 @@ function App() {
         <Route path="/services/ocean-freight" element={<OceanFreight />} /> 
         <Route path="/services/warehouse-solutions" element={<WarehouseSolutions />} /> 
         <Route path="/services/transportation-freight" element={<TransportationFreight />} /> 
-        <Route path="/services/rail-freight" element={<RailFreight />} /> 
+        <Route path="/services/cargo-insurance" element={< CargoInsurance />} /> 
         <Route path="/services/customs-clearance" element={<CustomsClearance />} /> 
 
 

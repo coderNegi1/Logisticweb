@@ -46,7 +46,7 @@ const services = [
     id: 4, 
     title: 'Cargo Insurance', 
     img: service2, 
-    link: '/services/rail-freight', 
+    link: '/services/cargo-insurance', 
     description: 'Protecting your shipment every step of the way.' 
   },
   { 

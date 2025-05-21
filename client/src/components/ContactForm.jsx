@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 const InquiryForm = () => {
-  // Define the state for form fields
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -10,7 +9,6 @@ const InquiryForm = () => {
     specialNote: '',
   });
 
-  // Handle input changes and update state
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -19,79 +17,87 @@ const InquiryForm = () => {
     }));
   };
 
-  // Handle form submission
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission, for now, let's log the form data
-    console.log(formData);
-    // You can send the form data to an API or handle it as needed
+
+    try {
+      const response = await fetch('http://localhost:5000/send-inquiry', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+      if (data.success) {
+        alert('Inquiry sent successfully!');
+      } else {
+        alert('Failed to send inquiry.');
+      }
+    } catch (error) {
+      console.error('Error sending inquiry:', error);
+      alert('Something went wrong!');
+    }
   };
 
   return (
     <form onSubmit={handleSubmit}>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        {/* Name Field */}
         <input
           type="text"
           name="name"
           placeholder="Your Name"
           value={formData.name}
           onChange={handleInputChange}
-          className="w-full p-3 border border-gray-300 focus:outline-none focus:ring focus:border-primary"
+          className="w-full p-3 border border-gray-300"
         />
-        
-        {/* Email Field */}
+
         <input
           type="email"
           name="email"
           placeholder="Your Email"
           value={formData.email}
           onChange={handleInputChange}
-          className="w-full p-3 border border-gray-300 focus:outline-none focus:ring focus:border-primary"
+          className="w-full p-3 border border-gray-300"
         />
 
-        {/* Mobile Field */}
         <input
           type="text"
           name="mobile"
           placeholder="Your Mobile"
           value={formData.mobile}
           onChange={handleInputChange}
-          className="w-full p-3 border border-gray-300 focus:outline-none focus:ring focus:border-primary"
+          className="w-full p-3 border border-gray-300"
         />
 
-        {/* Freight Type Dropdown */}
         <select
           name="freight"
           value={formData.freight}
           onChange={handleInputChange}
-          className="w-full p-3 border border-gray-300 focus:outline-none focus:ring focus:border-primary"
+          className="w-full p-3 border border-gray-300"
         >
-          <option value="" disabled>
-            Select A Freight
-          </option>
-          <option value="1">Air Freight</option>
-          <option value="2">Sea Freight</option>
-          <option value="3">Courier Service</option>
-          <option value="4">Custom Clearance</option>
-          <option value="5">Other Logistics Services</option>
+          <option value="" disabled>Select A Freight</option>
+          <option value="Air Freight">Air Freight</option>
+          <option value="Sea Freight">Sea Freight</option>
+          <option value="Courier Service">Courier Service</option>
+          <option value="Custom Clearance">Custom Clearance</option>
+          <option value="Other">Other Logistics Services</option>
         </select>
 
-        {/* Special Note Field */}
         <textarea
           name="specialNote"
           rows="4"
           placeholder="Special Note"
           value={formData.specialNote}
           onChange={handleInputChange}
-          className="col-span-1 sm:col-span-2 w-full p-3 border border-gray-300 focus:outline-none focus:ring focus:border-primary"
+          className="col-span-1 sm:col-span-2 w-full p-3 border border-gray-300"
         ></textarea>
       </div>
 
-      {/* Submit Button */}
       <button
         type="submit"
-        className="mt-6 w-full bg-primary text-dark py-4 px-6 hover:bg-primary-dull transition"
+        className="mt-6 w-full bg-blue-600 text-white py-4 px-6 hover:bg-blue-700 transition"
       >
         Submit
       </button>

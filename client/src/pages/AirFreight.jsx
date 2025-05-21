@@ -10,7 +10,7 @@ const AirFreight = () => {
         <>
             <div className="bg-gray-800 py-20 mb-24" style={{ backgroundImage: `url(${Bg3})` }}>
                 <div className="container mx-auto px-4">
-                    <h1 className="text-4xl md:text-5xl text-white font-bold mb-3">Air Freight Forwarders in Delhi</h1>
+                    <h1 className="text-4xl md:text-5xl text-white font-bold mb-3">Air Freight</h1>
                     <nav className="text-white text-sm">
                         <ol className="list-reset flex space-x-2">
                             <li>
