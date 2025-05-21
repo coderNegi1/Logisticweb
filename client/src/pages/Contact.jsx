@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Bg3 from '../assets/customsClearance.avif';
+import Bg3 from '../assets/CustomsClearance.avif';
 import InquiryForm from '../components/ContactForm';
 
 
