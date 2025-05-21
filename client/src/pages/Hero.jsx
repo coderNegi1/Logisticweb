@@ -75,20 +75,6 @@ const Hero = () => {
                     {slide.description}
                   </p>
 
-                  {/* <div className="flex flex-wrap gap-4">
-                    <a
-                      href="#"
-                      className="bg-primary text-white py-3 px-8  hover:bg-primary-dark transition"
-                    >
-                      Read More
-                    </a>
-                    <a
-                      href="#"
-                      className="bg-white text-gray-800 py-3 px-8  hover:bg-gray-200 transition"
-                    >
-                      Free Quote
-                    </a>
-                  </div> */}
                 </div>
               </div>
             </div>
