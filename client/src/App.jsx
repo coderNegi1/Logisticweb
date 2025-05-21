@@ -1,4 +1,5 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
+import React, { useEffect } from 'react';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
@@ -14,31 +15,32 @@ import CargoInsurance from './pages/CargoInsurance';
 import CustomsClearance from './pages/CustomsClearance';
 import SubHeader from './components/SubHerader';
 
-
 function App() {
+ 
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
     <>
-    <SubHeader />
+      <SubHeader />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} /> 
-        <Route path="/services/courier-service" element={<CourierService />} /> 
-        <Route path="/services/air-freight" element={<AirFreight />} /> 
-        <Route path="/services/ocean-freight" element={<OceanFreight />} /> 
-        <Route path="/services/warehouse-solutions" element={<WarehouseSolutions />} /> 
-        <Route path="/services/transportation-freight" element={<TransportationFreight />} /> 
-        <Route path="/services/cargo-insurance" element={< CargoInsurance />} /> 
-        <Route path="/services/customs-clearance" element={<CustomsClearance />} /> 
-
-
-
-
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/services/courier-service" element={<CourierService />} />
+        <Route path="/services/air-freight" element={<AirFreight />} />
+        <Route path="/services/ocean-freight" element={<OceanFreight />} />
+        <Route path="/services/warehouse-solutions" element={<WarehouseSolutions />} />
+        <Route path="/services/transportation-freight" element={<TransportationFreight />} />
+        <Route path="/services/cargo-insurance" element={<CargoInsurance />} />
+        <Route path="/services/customs-clearance" element={<CustomsClearance />} />
       </Routes>
       <Footer />
-
     </>
   );
 }

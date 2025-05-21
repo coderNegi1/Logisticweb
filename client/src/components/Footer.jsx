@@ -11,15 +11,16 @@ import {
 } from 'react-icons/fa';
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
-    <footer className="bg-gray-900 text-gray-300 pt-16 mt-24">
-      <div className="container mx-auto px-4 py-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+    <footer className="bg-gray-900 text-gray-300 pt-16 mt-24 ">
+      <div className="container mx-auto px-20 py-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 ">
           {/* Address */}
           <div>
             <h4 className="text-white text-lg font-semibold mb-4">Address</h4>
             <p className="mb-2 flex items-center"><FaMapMarkerAlt className="mr-2" />A-35/4, Flat No.303 , Street No.11
-Raj Nagar-2, Palam Colony, New Delhi-110077</p>
+              Raj Nagar-2, Palam Colony, New Delhi-110077</p>
             <p className="mb-2 flex items-center"><FaPhoneAlt className="mr-2" />9015210007</p>
             <p className="mb-2 flex items-center"><FaEnvelope className="mr-2" />kk@akhandvasini.in</p>
             <div className="flex gap-3 pt-4">
@@ -35,9 +36,9 @@ Raj Nagar-2, Palam Colony, New Delhi-110077</p>
             <h4 className="text-white text-lg font-semibold mb-4">Services</h4>
             <ul className="space-y-2">
               <li><Link to="/services/air-freight" className="hover:underline">Air Freight</Link></li>
-              <li><Link to="/services/sea-freight" className="hover:underline">Sea Freight</Link></li>
-              <li><Link to="/services/road-freight" className="hover:underline">Road Freight</Link></li>
-              <li><Link to="/services/logistics" className="hover:underline">Logistic Solutions</Link></li>
+              <li><Link to="/services/ocean-freight" className="hover:underline">Sea Freight</Link></li>
+              <li><Link to="/services/transportation-freight" className="hover:underline">Road And Rail Transport</Link></li>
+              <li><Link to="/services/warehouse-solutions" className="hover:underline">Warehouse Solutions</Link></li>
             </ul>
           </div>
 
@@ -48,7 +49,7 @@ Raj Nagar-2, Palam Colony, New Delhi-110077</p>
               <li><Link to="/about" className="hover:underline">About Us</Link></li>
               <li><Link to="/contact" className="hover:underline">Contact Us</Link></li>
               <li><Link to="/services" className="hover:underline">Our Services</Link></li>
-             
+
             </ul>
           </div>
 
@@ -60,10 +61,10 @@ Raj Nagar-2, Palam Colony, New Delhi-110077</p>
       <div className="bg-gray-800 py-4 text-center text-sm text-gray-400">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
           <div className="mb-2 md:mb-0">
-            &copy; <Link to="/" className="underline hover:text-white">Your Site Name</Link>, All Rights Reserved.
+            &copy; {currentYear} <Link to="/" className="underline hover:text-white">Akhand Vasini Logistics</Link>, All Rights Reserved.
           </div>
           <div>
-            Designed By PrashantNegi
+            Designed By <a href="https://github.com/coderNegi1" target="_blank" className="text-blue-500 hover:underline">PrashantNegi</a>
           </div>
         </div>
       </div>

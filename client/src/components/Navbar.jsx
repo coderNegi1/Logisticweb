@@ -27,7 +27,7 @@ const Navbar = () => {
           <NavLink
             to="/"
             className={({ isActive }) =>
-              `block px-6 py-1  transition ${isActive ? 'bg-primary text-white' : 'text-gray-700 hover:bg-gray-100 hover:text-primary'}`
+              `block py-2 px-4  transition ${isActive ? 'bg-primary text-white' : 'text-gray-700 hover:bg-gray-100 hover:text-primary'}`
             }
           >
             Home
@@ -35,7 +35,7 @@ const Navbar = () => {
           <NavLink
             to="/about"
             className={({ isActive }) =>
-              `block px-6 py-1  transition ${isActive ? 'bg-primary text-white' : 'text-gray-700 hover:bg-gray-100 hover:text-primary'}`
+              `block py-2 px-4  transition ${isActive ? 'bg-primary text-white' : 'text-gray-700 hover:bg-gray-100 hover:text-primary'}`
             }
           >
             About
@@ -43,7 +43,7 @@ const Navbar = () => {
           <NavLink
             to="/services"
             className={({ isActive }) =>
-              `block px-6 py-1  transition ${isActive ? 'bg-primary text-white' : 'text-gray-700 hover:bg-gray-100 hover:text-primary'}`
+              `block py-2 px-4  transition ${isActive ? 'bg-primary text-white' : 'text-gray-700 hover:bg-gray-100 hover:text-primary'}`
             }
           >
             Services
@@ -51,7 +51,7 @@ const Navbar = () => {
           <NavLink
             to="/contact"
             className={({ isActive }) =>
-              `block px-6   transition ${isActive ? 'bg-primary text-white' : 'text-gray-700 hover:bg-gray-100 hover:text-primary'}`
+              `block py-2 px-4   transition ${isActive ? 'bg-primary text-white' : 'text-gray-700 hover:bg-gray-100 hover:text-primary'}`
             }
           >
             Contact
@@ -62,7 +62,7 @@ const Navbar = () => {
         <div className="hidden lg:block text-gray-800 text-lg font-semibold">
           <NavLink
             to="/contact"  // Replace this with your desired path
-            className="bg-primary hover:bg-primary-dull text-white font-bold py-2 px-4 inline-block"
+            className="bg-primary hover:bg-primary-dull text-white font-bold py-[6px] px-4 inline-block"
           >
             Quick Inquiry
           </NavLink>
